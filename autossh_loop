@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while :
+do
+        echo "(re)starting autossh"
+        autossh $@
+        sleep 10
+done
